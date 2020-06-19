@@ -5,13 +5,13 @@ import java.util.function.Function;
 
 public class IntersectionEx5 {
 
-  interface Hello extends Function {
+  interface Hello extends Function<String, String> {
     default void hello() {
       System.out.println("hello");
     }
   }
 
-  interface Hi extends Function {
+  interface Hi extends Function<String, String> {
     default void hi() {
       System.out.println("hi");
     }
