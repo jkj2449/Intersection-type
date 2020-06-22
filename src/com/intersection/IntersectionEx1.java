@@ -10,7 +10,7 @@ public class IntersectionEx1 {
     /*
       Intersection
       람다식은 메서드가 하나 밖에 존재 하지 않는 인터페이스를 쓸 수 있다.
-      Marker Interface는 Intersection 가능. (추상 메서드가 없는 인터페이스)
+      Marker Interface는 Intersection 여러개 가능. (추상 메서드가 없는 인터페이스)
       ex) Serializable, Cloneable
 
       타입들의 총 메서드 갯수가 1개이면 Intersection 가능.
